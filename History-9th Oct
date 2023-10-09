@@ -62,3 +62,12 @@
    62  docker rm A2
    63  docker rm -f A2
    64  docker ps -a
+
+
+
+apt-get update -y
+apt-get install apache2 -y
+apt-get install vim -y
+vi index.html
+once paste the code 
+:wq

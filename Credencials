@@ -13,3 +13,4 @@ ssh -i "Oracle-Mac.pem" ec2-user@ec2-13-127-102-42.ap-south-1.compute.amazonaws.
  ec2-user@ec2-63-32-60-111.eu-west-1.compute.amazonaws.com - Soumya
  ssh -i "Batch3.pem" ec2-user@ec2-18-202-34-167.eu-west-1.compute.amazonaws.com - Ritam 
  ssh -i "Batch3.pem" ec2-user@ec2-34-244-76-247.eu-west-1.compute.amazonaws.com - Sreekar
+ ec2-user@ec2-18-141-211-186.ap-southeast-1.compute.amazonaws.com-Arshdeep

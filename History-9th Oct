@@ -1,0 +1,64 @@
+1  yum update -y
+    2  yum install docker -y
+    3  which docker
+    4  docker --version
+    5  docker info
+    6  service docker status
+    7  service docker start
+    8  service docker status
+    9  docker info
+   10  docker pull ubuntu:latest
+   11  docker images
+   12  clear
+   13  docker images
+   14  docker pull ubuntu:mantic
+   15  docker images
+   16  docker pull mysql
+   17  docker images
+   18  docker pull amazonlinux
+   19  docker pull jenkins/jenkins
+   20  docker images
+   21  docker create -it --name Webserver ubuntu /bin/bash
+   22  docker ps -a
+   23  docker ps
+   24  docker ps
+   25  docker ps -a
+   26  docker create -it --name amazonweb amazonlinux /bin/bash
+   27  docker images
+   28  docker create -it --name sample oraclelinux /bin/bash
+   29  docker create -it --name sample oraclelinux:8-slim  /bin/bash
+   30  docker ps -a
+   31  docker ps -a
+   32  docker ps
+   33  clear
+   34  docker create amazonlinux /bin/bash
+   35  docker ps -a
+   36  docker start aaf5a7b48ee2
+   37  docker ps
+   38  docker ps -a
+   39  docker create -it --name A1 mysql /bin/bash
+   40  docker images
+   41  docker ps -a
+   42  docker start A1
+   43  docker ps
+   44  docker attach A1
+   45  docker ps -a
+   46  docker start A1
+   47  docker attach A1
+   48  docker ps
+   49  docker ps -a
+   50  docker run -it --name A2 ubuntu /bin/bash
+   51  docker ps
+   52  docker stop A1 A2
+   53  docker ps
+   54  docker ps -a
+   55  docker ps -a
+   56  docker start A2
+   57  docker ps -a
+   58  docker pause A2
+   59  docker ps -a
+   60  docker unpause A2
+   61  docker ps -a
+   62  docker rm A2
+   63  docker rm -f A2
+   64  docker ps -a

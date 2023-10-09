@@ -1,1 +1,2 @@
 ssh -i "Oracle-Mac.pem" ec2-user@ec2-43-205-140-27.ap-south-1.compute.amazonaws.com - Anshu
+ec2-user@ec2-3-108-191-1.ap-south-1.compute.amazonaws.com - Vedanth 

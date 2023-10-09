@@ -8,3 +8,8 @@ ssh -i "Oracle-Mac.pem" ec2-user@ec2-13-127-102-42.ap-south-1.compute.amazonaws.
  ssh -i "Batch-2.pem" ec2-user@ec2-13-212-103-32.ap-southeast-1.compute.amazonaws.com-Pravika
  ssh -i "Batch-2.pem" ec2-user@ec2-13-229-101-150.ap-southeast-1.compute.amazonaws.com-Priyanshu
  ssh -i "Batch-2.pem" ec2-user@ec2-54-254-210-239.ap-southeast-1.compute.amazonaws.com-Roshitha
+ ec2-user@ec2-3-254-115-151.eu-west-1.compute.amazonaws.com - Raghav
+ ec2-user@ec2-63-32-106-69.eu-west-1.compute.amazonaws.com - Ripon 
+ ec2-user@ec2-63-32-60-111.eu-west-1.compute.amazonaws.com - Soumya
+ ssh -i "Batch3.pem" ec2-user@ec2-18-202-34-167.eu-west-1.compute.amazonaws.com - Ritam 
+ ssh -i "Batch3.pem" ec2-user@ec2-34-244-76-247.eu-west-1.compute.amazonaws.com - Sreekar

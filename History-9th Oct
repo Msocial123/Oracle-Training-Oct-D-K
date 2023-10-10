@@ -71,3 +71,26 @@ apt-get install vim -y
 vi index.html
 once paste the code 
 :wq
+
+
+################################################################################
+
+10th Oct - Tuesday :
+
+docker run -it --name env ubuntu /bin/bash # Inside the Container
+apt-get update -y
+apt-get install default-jdk -y
+apt-get install mysql-server -y
+apt-get install git -y
+apt-get install apache2 -y
+mkdir Project
+cd Project
+touch Login.html
+exit
+
+   93  docker ps -a
+   94  docker commit env oracle-env:1.0
+   95  docker images
+   96  docker images
+   97  docker run -it --name C1 oracle-env
+   98  docker run -it --name C1 oracle-env:1.0

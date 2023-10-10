@@ -99,3 +99,36 @@ exit
   103  docker images
   104  docker push muralisocial123/oracle-env:1.0
 
+
+  ################################################################################
+
+  Dockerfile :
+
+  vi Dockerfile
+  120  git clone https://github.com/Msocial123/maven-web-application.git
+  121  yum install git -y
+  122  git clone https://github.com/Msocial123/maven-web-application.git
+  123  ls
+  124  cd maven-web-app-application
+  125  cd  maven-web-application
+  126  ls
+  127  cd ..
+  128  ls
+  129  vi Dockerfile
+  130  docker build -t sample-img .
+  131  docker images
+  132  docker inspect sample-img:latest
+  133  docker images
+  134  docker run -it --name C3 sample-img:latest /bin/bash
+FROM ubuntu:latest
+RUN mkdir /Oracle
+WORKDIR /Oracle
+RUN apt-get update -y
+RUN apt-get install default-jdk -y
+RUN apt-get install mysql-server -y
+RUN apt-get install git -y
+COPY . /Oracle
+ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz .
+RUN tar -xvzf apache-tomcat-9.0.80.tar.gz
+
+

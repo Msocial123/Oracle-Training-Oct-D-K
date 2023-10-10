@@ -131,4 +131,11 @@ COPY . /Oracle
 ADD https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.80/bin/apache-tomcat-9.0.80.tar.gz .
 RUN tar -xvzf apache-tomcat-9.0.80.tar.gz
 
+##############################################################\
+
+FROM nginx:latest
+COPY index.html /usr/share/nginx/html
+
+docker run -td --name web -p 8080:80 sample-web:latest
+
 

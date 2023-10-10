@@ -94,3 +94,8 @@ exit
    96  docker images
    97  docker run -it --name C1 oracle-env
    98  docker run -it --name C1 oracle-env:1.0
+   docker tag oracle-env:1.0 muralisocial123/oracle-env:1.0
+  102  docker login
+  103  docker images
+  104  docker push muralisocial123/oracle-env:1.0
+

@@ -185,6 +185,31 @@ docker run -it --name A2 -v /Data ubuntu /bin/bash
   258  ls
   259  cd /home/ec2-user
 
+  Bind Volumes :
+
+  docker ps
+  262  docker ps -a
+  263  pwd
+  264  cd /opt
+  265  mkdir Oracle
+  266  ls
+  267  cd /home/ec2-user
+  268  docker run -it --name M1 -v /opt/Oracle:/Mohan ubuntu /bin/bash
+  269  docker volume ls
+  270  cd /opt/Oracle
+  271  ls
+  272  touch DevOps RDBMS MySQL
+  273  cd /home/ec2-user
+  274  docker ps -a
+  275  docker start M1
+  276  docker attach M1
+  277  pwd
+  278  docker run -it --name M2 -v /home/ec2-user:/Mohan ubuntu /bin/bash
+  279  docker run -it --name M3 --privileged=true --volumes-from M2 ubuntu /bin/bash
+  280  docker run -it --name M4 --privileged=true --volumes-from M3 ubuntu /bin/bash
+  281  docker run -it --name M5 --privileged=true --volumes-from M3 M2 ubuntu /bin/bash
+
+
 
 
 

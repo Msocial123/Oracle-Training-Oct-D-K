@@ -210,6 +210,51 @@ docker run -it --name A2 -v /Data ubuntu /bin/bash
   281  docker run -it --name M5 --privileged=true --volumes-from M3 M2 ubuntu /bin/bash
 
 
+################################################################################################################
+Docker Networking
+
+ docker network ls
+  284  docker ps
+  285  docker ps -a
+  286  docker inspect M4
+  287  docker ps -a
+  288  docker start M4
+  289  docker ps
+  290  docker inspect M4
+  291  brctl show
+  292  ifconfig
+  293  docker ps -a
+  294  docker rm -f web
+  295  docker ps
+  296  docker run -it --name web ubuntu /bin/bash
+  297  docker ps
+  298  docker run -it --name app ubuntu /bin/bash
+  299  docker ps
+  300  docker inspect app
+  301  docker inspect web
+  302  docker network inspect bridge
+  303  docker attach web
+  304  docker network create mynetwork --subnet=10.0.0.1/16 --gateway=10.0.10.100
+  305  docker network ls
+  306  docker run -it  --net mynetwork --name C1 ubuntu /bin/bash
+  307  docker run -it  --net mynetwork --name D1 ubuntu /bin/bash
+  308  docker inspect D1
+  309  docker ps
+  310  docker start web
+  311  docker attach web
+  312  docker network connect bridge D1
+  313  docker attach web
+  314  docker attach D1
+
+
+
+
+
+  apt-get install iputils-ping -y
+  apt-get install iproute2 -y
+
+
+
 
 
 

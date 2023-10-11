@@ -148,4 +148,29 @@ https://github.com/Msocial123/Flask-Docker-App.git
 
 https://github.com/Msocial123/simple-java-maven-app-1.git
 
+Volumes :
+
+docker run -it --name A2 -v /Data ubuntu /bin/bash
+  227  rm -rf A2
+  228  docker ps
+  229  docker ps -a
+  230  docker rm -f A2
+  231  docker ps -a
+  232  docker volume ls
+  233  cd /var
+  234  ls
+  235  cd lib
+  236  ls
+  237  cd docker
+  238  ls
+  239  cd volumes
+  240  ls
+  241  cd 6efad1f99e1085753bd86cd1d8655be8d3f72b6ecb17fe706fb384dbdd456ab1
+  242  ls
+  243  cd -data
+  244  cd _data
+  245  ls
+  246  cd /home/ec2-user
+
+
 

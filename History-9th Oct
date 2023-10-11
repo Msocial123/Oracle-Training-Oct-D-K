@@ -142,3 +142,10 @@ docker run -td --name web -p 8080:80 sample-web:latest
 https://github.com/Msocial123/Flask-Docker-App.git
 
 
+################################################################################################
+
+11th Oct :
+
+https://github.com/Msocial123/simple-java-maven-app-1.git
+
+

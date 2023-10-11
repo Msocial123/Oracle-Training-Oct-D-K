@@ -172,5 +172,19 @@ docker run -it --name A2 -v /Data ubuntu /bin/bash
   245  ls
   246  cd /home/ec2-user
 
+  docker run -it --name A2 -v /Data ubuntu /bin/bash
+  249  docker volume ls
+  250  clear
+  251  docker run -it --name C1 -v mydata:/Murali ubuntu /bin/bash
+  252  docker volume ls
+  253  cd mydata
+  254  cd /var/lib/docker/volume/mydata
+  255  cd /var/lib/docker/volumes/mydata
+  256  ls
+  257  cd _data
+  258  ls
+  259  cd /home/ec2-user
+
+
 
 

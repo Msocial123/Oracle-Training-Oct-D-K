@@ -274,6 +274,17 @@ Docker Networking
   docker pull muralisocial123/python-app-sample:1.0
 
 
+  kubectl create deployment nginx-app --image=nginx 
+  380  kubectl get deployments
+  381  kubectl scale deployment nginx-app --replicas=5
+  382  kubectl get deployments
+  383  kubectl get pods -o wide
+  384  kubectl get rs
+  385  kubectl delete pod nginx-app-5c64488cdf-5rxqc 
+  386  kubectl get pods -o wide
+  387  kubectl get events --sort-by=.metadata.creationTimestamp
+
+
 
 
 

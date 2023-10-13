@@ -292,6 +292,14 @@ Docker Networking
   apt-get install iproute2 -y
 
 
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-secret
+data:
+  secret1: cGFzc3dvcmQxMjM0
+  secret2: cGFzc3dvcmQxMjM0NQ==
+
 
 
 

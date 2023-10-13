@@ -52,3 +52,8 @@ kubectl get pods -o wide --sort-by .spec.nodeName
 
 # Kubectl cheatsheet
 https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+
+kubernetes Reference Document :
+
+https://pwittrock.github.io/docs/api-reference/v1.7/#pod-v1-core

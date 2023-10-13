@@ -270,6 +270,11 @@ Docker Networking
 
 
 
+  docker pull muralisocial123/testing-py:1.0
+  docker pull muralisocial123/python-app-sample:1.0
+
+
+
 
 
   apt-get install iputils-ping -y

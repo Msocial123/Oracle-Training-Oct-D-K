@@ -266,6 +266,11 @@ Docker Networking
 
 
 
+  Step3: sudo groupadd docker && sudo usermod -aG docker $USER
+
+
+
+
 
   apt-get install iputils-ping -y
   apt-get install iproute2 -y
